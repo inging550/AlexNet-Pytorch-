@@ -1,7 +1,7 @@
 # AlexNet-Pytorch
-使用的Pytorch版本为1.7.1,经过测试1.11.0也可以正常运行，对应的博客地址为 \
-此代码对应的Libtorch（C++）版本的博客地址为，\
-代码地址为
+使用的Pytorch版本为1.7.1,经过测试1.11.0也可以正常运行，对应的博客地址为：https://blog.csdn.net/ing100/article/details/129519614 \
+此代码对应的Libtorch（C++）版本的博客地址为（还没更新），\
+代码地址为（还没更新）
     
 博客中的0~9手写数据集下载地址：\
 链接：https://pan.baidu.com/s/1-THA3tu7NHzyoS5ZIFv0Tw\
