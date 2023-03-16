@@ -32,12 +32,14 @@ train_loader = DataLoader(train_dataset, batch_size=2, shuffle=True)
 test_loader = DataLoader(test_dataset, batch_size=2, shuffle=False)
 
 # 2、定义网络结构并设置为CUDA
-net = AlexNet(NUM_CLASS=10, init_weight=True)
+net = AlexNet(NUM_CLASS=10, init_weight=True)  # NUM_CLASS为当前数据集的类别总数
 net.to(device)
+
 # 3、定义损失函数及优化器，损失函数设置为CUDA
-loss_function = nn.CrossEntropyLoss()
-optimizer = optioms.SGD(params=net.parameters(), lr=learning_rate)
+loss_function = nn.CrossEntropyLoss()  # 交叉熵损失函数
+optimizer = optioms.SGD(params=net.parameters(), lr=learning_rate)  # SGD随机梯度下降
 loss_function.to(device)
+
 # 4、开始训练
 for epoch in range(num_epochs):
     net.train()  # 网络有Dropout，BatchNorm层时一定要加

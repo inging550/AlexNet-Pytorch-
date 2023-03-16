@@ -10,7 +10,8 @@ img_root = "F:/CCCCCProject/AlexNet/Project1/DATASET/TRAIN/6/6_00022.bmp"  # 需
 net = AlexNet(NUM_CLASS=10, init_weight=False)  # 给神经网络实例化对象
 net.load_state_dict(torch.load("AlexNet.pth"))  # 导入权重参数
 net.eval()
-# 根据自己使用的数据集更改
+
+# 各类别名字，根据自己使用的数据集更改
 labels_name = ['数字0', '数字1', '数字2', '数字3', '数字4', '数字5', '数字6', '数字7', '数字8', '数字9']
 
 

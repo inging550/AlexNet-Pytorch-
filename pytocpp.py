@@ -1,4 +1,4 @@
-# 此文将将pytorch训练的模型文件转变为Libtorch可以用的模型文件（Pytorch和Libtorch版本需要一致）
+# 此文将将pytorch训练的模型文件转变为Libtorch可以用的模型文件（Pytorch和Libtorch版本需要一致，我这里都为1.7.1）
 import torch
 # 加载模型
 from model import AlexNet
