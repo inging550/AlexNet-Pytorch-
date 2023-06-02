@@ -8,7 +8,7 @@ https://blog.csdn.net/ing100/article/details/129621206
 https://github.com/inging550/AlexNet-Libtorch-
     
 博客中的0~9手写数据集下载地址：\
-链接：https://pan.baidu.com/s/1-THA3tu7NHzyoS5ZIFv0Tw\
+链接：https://pan.baidu.com/s/1-THA3tu7NHzyoS5ZIFv0Tw
 提取码：1234
 
 ## 训练方法: (修改train.py)
